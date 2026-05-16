@@ -1094,3 +1094,18 @@
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/liaison.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Snowsuits/liaison.rsi
+
+- type: entity
+  parent: RMCJacketWindbreaker
+  id: RMCJacketWindbreakerCMB
+  name: CMB windbreaker
+  description: A sturdy, comfortable, and above all baggy windbreaker emblazoned with "CMB" in large yellow block letters on the back. Often seen worn by Colony Marshal Bureau special agents and field coordinators.
+  components: 
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Bureau/special_agent.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Bureau/special_agent.rsi
+  - type: CMArmor
+    melee: 15
+    bullet: 15
+    bio: 15
